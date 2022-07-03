@@ -316,8 +316,10 @@ body {
   color: var(--twitter);
 }
 .instagram {
-  background: -webkit-linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
-  background-clip: text; 
+  background-image: linear-gradient(hsl(37, 97%, 70%), hsl(329, 70%, 58%));
+  -webkit-background-clip: text; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
   -webkit-text-fill-color: transparent;
 } 
 .youtube {
